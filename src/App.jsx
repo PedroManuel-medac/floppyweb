@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 function App() {
   const handleDownload = () => {
     const link = document.createElement('a')
-    link.href = '/floppy.apk'
+    link.href = './floppy.apk'
     link.download = 'floppy.apk'
     document.body.appendChild(link)
     link.click()
